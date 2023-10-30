@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Github Pipelines - Green Ticks Hiding Tool",
+  "name": "Github Pipelines - Green & Grey Ticks Hiding Tool",
   "version": "1.0",
   "permissions": ["activeTab", "scripting"],
   "action": {
