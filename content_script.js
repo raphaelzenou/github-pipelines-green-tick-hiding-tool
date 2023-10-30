@@ -14,11 +14,14 @@ var list1 = document.querySelectorAll(
 var list2 = document.querySelectorAll(
   ".octicon.octicon-skip.mx-auto.d-block.neutral-check"
 );
+var list3 = document.querySelectorAll(
+  ".octicon.octicon-stop.mx-auto.d-block.neutral-check"
+);
 
 if (!list1.length) {
-  alert("Wrong URL, please visit a Github PR");
+  alert("Potentially wrong URL, please visit a Github PR");
 } else {
-  var parentsListHidden = [...list1, ...list2].forEach(function (
+  var parentsListHidden = [...list1, ...list2, ...list3].forEach(function (
     element,
     index
   ) {
