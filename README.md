@@ -26,6 +26,6 @@ How to install and use:
 
 <img width="417" alt="image" src="https://github.com/raphaelzenou/github-pipelines-green-tick-hiding-tool/assets/42899564/b4336206-a426-4ed4-bb54-435ff9bdd15d">
 
-7- Now head to a PR with pipeline checks and it will hide the ones that already passed (green ticks)
+7- Now head to a PR with pipeline checks and it will hide the ones that already passed (green ticks and neutral grey statuses)
 
 <img width="475" alt="image" src="https://github.com/raphaelzenou/github-pipelines-green-tick-hiding-tool/assets/42899564/675aa8a8-cfe6-4aa2-ac48-7de7907178ef">
