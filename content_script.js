@@ -8,17 +8,20 @@ function addImportantRule(element, property, value) {
 
 console.log(`Let's go 🚀`);
 
-var listGreen = document.querySelectorAll(
+var list1 = document.querySelectorAll(
   ".octicon.octicon-check.mx-auto.d-block.color-fg-success"
 );
-var listGrey = document.querySelectorAll(
+var list2 = document.querySelectorAll(
   ".octicon.octicon-skip.mx-auto.d-block.neutral-check"
 );
+var list3 = document.querySelectorAll(
+  ".octicon.octicon-stop.mx-auto.d-block.neutral-check"
+);
 
-if (!listGreen.length) {
+if (!list1.length) {
   alert("Potentially wrong URL, please visit a Github PR");
 } else {
-  var parentsListHidden = [...listGreen, ...listGrey].forEach(function (
+  var parentsListHidden = [...list1, ...list2, ...list3].forEach(function (
     element,
     index
   ) {
