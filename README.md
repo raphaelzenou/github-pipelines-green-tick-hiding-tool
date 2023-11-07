@@ -29,3 +29,7 @@ How to install and use:
 7- Now head to a PR with pipeline checks and it will hide the ones that already passed (green ticks and neutral grey statuses)
 
 <img width="475" alt="image" src="https://github.com/raphaelzenou/github-pipelines-green-tick-hiding-tool/assets/42899564/675aa8a8-cfe6-4aa2-ac48-7de7907178ef">
+
+**Disclaimer**
+
+This software is provided for educational purposes only and is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
